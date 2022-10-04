@@ -13,7 +13,7 @@
 
         <ScrollView>
 
-            <StackLayout>
+            <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
                 <Button Text="" Clicked="" Style="{StaticResource botaoCinza}"/>
                 <Button Text="" Clicked="" Style="{StaticResource botaoCinza}"/>
                 <Button Text="" Clicked="" Style="{StaticResource botaoCinza}"/>
