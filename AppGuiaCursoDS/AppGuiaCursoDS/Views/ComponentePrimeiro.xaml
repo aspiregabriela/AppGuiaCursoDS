@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d ="http:/xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppGuiaCursoDS.Views.ComponentesPrimeiro"
+            BackgroundColor="Black"
+             Title="Disciplinas do Primeiro Ano">
+
+
+
+    <ContentPage.Content>
+
+        <ScrollView>
+
+            <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
+                <Button Text="" Clicked="btn1_Clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="" Clicked="btn2_Clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="" Clicked="btn3_Clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="" Clicked="btn4_Clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="" Clicked="btn5_Clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="" Clicked="btn6_Clicked" Style="{StaticResource botaoCinza}"/>
+
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

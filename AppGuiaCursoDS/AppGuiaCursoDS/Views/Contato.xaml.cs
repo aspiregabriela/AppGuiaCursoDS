@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace AppGuiaCursoDS
+namespace AppGuiaCursoDS.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Inicial : ContentPage
+    public partial class Contato : ContentPage
     {
-        public Inicial()
+        public Contato()
         {
             InitializeComponent();
         }

@@ -6,15 +6,17 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using AppGuiaCursoDS.Models;
 
-namespace AppGuiaCursoDS
+namespace AppGuiaCursoDS.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Inicial : ContentPage
+    public partial class VerComponente : ContentPage
     {
-        public Inicial()
+        public VerComponente(Componente c)
         {
             InitializeComponent();
+            BindingContext = c;
         }
     }
 }

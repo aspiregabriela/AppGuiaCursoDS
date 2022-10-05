@@ -37,7 +37,7 @@ namespace AppGuiaCursoDS
         {
             try
             {
-                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Primeiro)));
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ComponentePrimeiro)));
                 IsPresented = false;
             }
             catch (Exception ex)
@@ -51,7 +51,7 @@ namespace AppGuiaCursoDS
         {
             try
             {
-                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Primeiro)));
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ComponentePrimeiro)));
                 IsPresented = false;
             }
             catch (Exception ex)
@@ -65,7 +65,7 @@ namespace AppGuiaCursoDS
         {
             try
             {
-                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Primeiro)));
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ComponentePrimeiro)));
                 IsPresented = false;
             }
             catch (Exception ex)
@@ -78,7 +78,7 @@ namespace AppGuiaCursoDS
         {
             try
             {
-                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Primeiro)));
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ComponentePrimeiro)));
                 IsPresented = false;
             }
             catch (Exception ex)
@@ -92,7 +92,7 @@ namespace AppGuiaCursoDS
         {
             try
             {
-                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Primeiro)));
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ComponentePrimeiro)));
                 IsPresented = false;
             }
             catch (Exception ex)
