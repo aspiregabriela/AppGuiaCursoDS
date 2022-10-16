@@ -14,8 +14,8 @@
                 <Setter Property="CornerRadius" Value="5"/>
             </Style>
 
-            <Style x:Key="botaoPreto" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="#3E474C"/>
+            <Style x:Key="botaoazul" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#727e97"/>
                 <Setter Property="TextColor" Value="#FFFFFF"/>
                 <Setter Property="CornerRadius" Value="5"/>
             </Style>

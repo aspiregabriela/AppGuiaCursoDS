@@ -25,9 +25,9 @@
                    TextColor="#AB0209"
                    Style="{ StaticResource textoCentralizado}"/>
 
-            <image Source=""/>
+                <Image Source="logoDS.jpg"/>
 
-            
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

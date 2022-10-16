@@ -18,14 +18,14 @@
                              Padding="10"
                              Margin="10"
                              HorizontalOptions="FillAndExpand">
-                    <Image Source="" Aspect="AspectFit"/>
+                    <Image Source="logoEtecJau.jpg" Aspect="AspectFit"/>
                 </StackLayout>
                 <StackLayout Grid.Row="1" Spacing="10" Margin="10" Padding="10" BackgroundColor="#F3F2F0">
 
                     <Button Text="Inicial" Clicked="Open_Inicial" Style="{StaticResource botaovermelho}"/>
-                    <Button Text="Primeiro Ano" Clicked="Open_Primeiro" Style="{StaticResource botaoCinza}"/>
-                    <Button Text="Segundo Ano" Clicked="Open_Segundo" Style="{StaticResource botaoCinza}"/>
-                    <Button Text="Terceiro Ano" Clicked="Open_Terceiro" Style="{StaticResource botaoCinza}"/>
+                    <Button Text="Primeiro Ano" Clicked="Open_Primeiro" Style="{StaticResource botaoazul}"/>
+                    <Button Text="Segundo Ano" Clicked="Open_Segundo" Style="{StaticResource botaoazul}"/>
+                    <Button Text="Terceiro Ano" Clicked="Open_Terceiro" Style="{StaticResource botaoazul}"/>
                     <Button Text="Vestibulinho" Clicked="Open_Vestibulinho" Style="{StaticResource botaovermelho}"/>
                     <Button Text="Contato" Clicked="Open_Contato" Style="{StaticResource botaovermelho}"/>
                 </StackLayout>
