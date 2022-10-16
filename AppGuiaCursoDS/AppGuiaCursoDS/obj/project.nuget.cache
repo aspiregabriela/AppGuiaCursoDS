@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "/jW2GuCV0Cs+Vd/FoMCwF0/0gLLVwmuRiswz162mMiEVOnLat/iewGYSyNfH3RzOpJ7jREAeNixEj3qOzXkg6Q==",
+  "dgSpecHash": "nJhOuULkaNWGLA/N5WVj3PmQ0nWEEWNqZBUnnnVt7yyvcz5/azFZ3vtsa0Djb4Osjhx6xw4DVmkJei3GruJkuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj",
+  "projectFilePath": "C:\\_ETEC\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\knowl\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\knowl\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\knowl\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\knowl\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\knowl\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

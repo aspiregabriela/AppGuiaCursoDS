@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\AppGuiaCursoDS.Android.csproj": {}
+    "C:\\_ETEC\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\AppGuiaCursoDS.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\AppGuiaCursoDS.Android.csproj": {
+    "C:\\_ETEC\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\AppGuiaCursoDS.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\AppGuiaCursoDS.Android.csproj",
+        "projectUniqueName": "C:\\_ETEC\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\AppGuiaCursoDS.Android.csproj",
         "projectName": "AppGuiaCursoDS.Android",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\AppGuiaCursoDS.Android.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\obj\\",
+        "projectPath": "C:\\_ETEC\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\AppGuiaCursoDS.Android.csproj",
+        "packagesPath": "C:\\Users\\knowl\\.nuget\\packages\\",
+        "outputPath": "C:\\_ETEC\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\knowl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
         "frameworks": {
           "monoandroid12.0": {
             "projectReferences": {
-              "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj"
+              "C:\\_ETEC\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj": {
+                "projectPath": "C:\\_ETEC\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj"
               }
             }
           }
@@ -54,21 +50,17 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj": {
+    "C:\\_ETEC\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj",
+        "projectUniqueName": "C:\\_ETEC\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj",
         "projectName": "AppGuiaCursoDS",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\obj\\",
+        "projectPath": "C:\\_ETEC\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj",
+        "packagesPath": "C:\\Users\\knowl\\.nuget\\packages\\",
+        "outputPath": "C:\\_ETEC\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\knowl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -119,7 +111,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
