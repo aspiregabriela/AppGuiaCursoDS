@@ -85,8 +85,8 @@ namespace AppGuiaCursoDS.Views
                                    "de situações-problemas. Promover ações que considerem o respeito ás normas estabelecidas."
                 };
 
-                VerComponente verComponente = new VerComponente(c);
-                await Navigation.PopAsync(verComponente);
+               
+                await Navigation.PushAsync(new VerComponente(c));
             }
             catch (Exception ex)
             {
