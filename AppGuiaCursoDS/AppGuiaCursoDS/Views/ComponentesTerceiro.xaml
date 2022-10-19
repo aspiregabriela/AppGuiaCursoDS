@@ -1,17 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="White"
              x:Class="AppGuiaCursoDS.Views.ComponentesTerceiro">
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
 
-            <Button Text="Segurança de Sistemas de Informação" Clicked="Btn_SegSistInf" Style="{ StaticResource BotaoPrincipal }" />
-            <Button Text="Programação de Aplicativos Mobile II" Clicked="Btn_MobII" Style="{ StaticResource BotaoPrincipal }" />
-            <Button Text="Programação Web III " Clicked="Btn_PWebIII"  Style="{ StaticResource BotaoPrincipal }" />
-            <Button Text="Sistemas Embarcados" Clicked="Btn_SistEmb"  Style="{ StaticResource BotaoPrincipal }" />
-            <Button Text="Qualidade e Teste de Software" Clicked="Btn_QualiSof" Style="{ StaticResource BotaoPrincipal }" />
+            <Button Text="Segurança de Sistemas de Informação" Clicked="Btn_SegSistInf" Style="{ StaticResource Botaopreto }" />
+            <Button Text="Programação de Aplicativos Mobile II" Clicked="Btn_MobII" Style="{ StaticResource Botaopreto}" />
+            <Button Text="Programação Web III " Clicked="Btn_PWebIII"  Style="{ StaticResource Botaopreto }" />
+            <Button Text="Sistemas Embarcados" Clicked="Btn_SistEmb"  Style="{ StaticResource Botaopreto }" />
+            <Button Text="Qualidade e Teste de Software" Clicked="Btn_QualiSof" Style="{ StaticResource Botaopreto }" />
             <Button Text="Desenvolvimento do Trabalho de Conclusão de Curso (TCC) em Desenvolvimento de Sistemas" 
-                   Clicked="Btn_TCC" Style="{ StaticResource BotaoPrincipal }" />
+                   Clicked="Btn_TCC" Style="{ StaticResource Botaovermelho }" />
 
         </StackLayout>
     </ContentPage.Content>

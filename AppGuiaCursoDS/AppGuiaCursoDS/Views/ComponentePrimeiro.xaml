@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="AppGuiaCursoDS.Views.ComponentePrimeiro"
-            BackgroundColor="Black"
+            BackgroundColor="White"
              Title="Disciplinas do Primeiro Ano">
 
 
@@ -15,12 +15,12 @@
         <ScrollView>
 
             <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
-                <Button Text="Linguagem, Trabalho e Tecnologia" Clicked="btn1_Clicked" Style="{StaticResource botaoCinza}"/>
-                <Button Text="Programação e algoritimos" Clicked="btn2_Clicked" Style="{StaticResource botaoCinza}"/>
-                <Button Text="Análise e Projetos" Clicked="btn3_Clicked" Style="{StaticResource botaoCinza}"/>
-                <Button Text="Design Digital" Clicked="btn4_Clicked" Style="{StaticResource botaoCinza}"/>
-                <Button Text="Programação Web I" Clicked="btn5_Clicked" Style="{StaticResource botaoCinza}"/>
-                <Button Text="Técnicas  de Programação" Clicked="btn6_Clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Linguagem, Trabalho e Tecnologia" Clicked="btn1_Clicked" Style="{StaticResource botaopreto}"/>
+                <Button Text="Programação e algoritimos" Clicked="btn2_Clicked" Style="{StaticResource botaopreto}"/>
+                <Button Text="Análise e Projetos" Clicked="btn3_Clicked" Style="{StaticResource botaopreto}"/>
+                <Button Text="Design Digital" Clicked="btn4_Clicked" Style="{StaticResource botaopreto}"/>
+                <Button Text="Programação Web I" Clicked="btn5_Clicked" Style="{StaticResource botaopreto}"/>
+                <Button Text="Técnicas  de Programação" Clicked="btn6_Clicked" Style="{StaticResource botaopreto}"/>
 
             </StackLayout>
 

@@ -19,7 +19,9 @@ namespace AppGuiaCursoDS.Views
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-
+            
+              Device.OpenUri(new Uri("tel:1436223566"));
+            
         }
     }
 }

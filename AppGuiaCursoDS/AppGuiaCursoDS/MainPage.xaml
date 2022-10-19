@@ -7,7 +7,7 @@
 
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">
-            <Grid BackgroundColor="#3E474C">
+            <Grid BackgroundColor="White">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="160"/>
                     <RowDefinition Height="*"/>
@@ -18,15 +18,15 @@
                              Padding="10"
                              Margin="10"
                              HorizontalOptions="FillAndExpand">
-                    <Image Source="logoEtecJau.jpg" Aspect="AspectFit"/>
+                    <Image Source="etecjausemfundo" Aspect="AspectFit"/>
                 </StackLayout>
                 <StackLayout Grid.Row="1" Spacing="10" Margin="10" Padding="10" BackgroundColor="#F3F2F0">
 
                     <Button Text="Inicial" Clicked="Open_Inicial" Style="{StaticResource botaovermelho}"/>
-                    <Button Text="Primeiro Ano" Clicked="Open_Primeiro" Style="{StaticResource botaoazul}"/>
-                    <Button Text="Segundo Ano" Clicked="Open_Segundo" Style="{StaticResource botaoazul}"/>
-                    <Button Text="Terceiro Ano" Clicked="Open_Terceiro" Style="{StaticResource botaoazul}"/>
-                    <Button Text="Vestibulinho" Clicked="Open_Vestibulinho" Style="{StaticResource botaovermelho}"/>
+                    <Button Text="Primeiro Ano" Clicked="Open_Primeiro" Style="{StaticResource botaopreto}"/>
+                    <Button Text="Segundo Ano" Clicked="Open_Segundo" Style="{StaticResource botaopreto}"/>
+                    <Button Text="Terceiro Ano" Clicked="Open_Terceiro" Style="{StaticResource botaopreto}"/>
+                    <Button Text="Vestibulinho" Clicked="Open_Vestibulinho" Style="{StaticResource botaopreto}"/>
                     <Button Text="Contato" Clicked="Open_Contato" Style="{StaticResource botaovermelho}"/>
                 </StackLayout>
             </Grid>

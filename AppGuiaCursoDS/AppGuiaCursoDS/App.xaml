@@ -8,17 +8,47 @@
     <Application.Resources>
         <ResourceDictionary>
 
-            <Style x:Key="botaovermelho" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="#AB0209"/>
-                <Setter Property="TextColor" Value="#FFF"/>
-                <Setter Property="CornerRadius" Value="5"/>
+            <Style x:Key="textoCentralizado" TargetType="Label">
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <Setter Property="TextColor" Value="Accent" />
             </Style>
 
-            <Style x:Key="botaoazul" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="#727e97"/>
+            <Style x:Key="textoCentralizadoVermelho" TargetType="Label">
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="TextColor" Value="Accent" />
+            </Style>
+
+
+            <Style x:Key="tituloCentralizadoVermelho" TargetType="Label">
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="TextColor" Value="Accent" />
+            </Style>
+
+
+            <Style x:Key="botaovermelho" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#AB0209"/>
+                <Setter Property="TextColor" Value="#FFF" />
+                <Setter Property="CornerRadius" Value="5"/>
+                
+            </Style>
+            
+        
+
+            <Style x:Key="botaopreto" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Black"/>
                 <Setter Property="TextColor" Value="#FFFFFF"/>
                 <Setter Property="CornerRadius" Value="5"/>
             </Style>
+
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="White"/>
+                <Setter Property="BarTextColor" Value="Red"/>
+
+
+            </Style>
+            
+            
 
         </ResourceDictionary>
 

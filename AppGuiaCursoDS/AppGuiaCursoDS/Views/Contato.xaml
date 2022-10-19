@@ -7,18 +7,30 @@
              Title="Contato">
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
+            <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
 
-            <Label Text="Etec Joaquim Ferreira do Amaral" FontSize="Title" FontAttributes="Bold"
-                   VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="Etec Joaquim Ferreira do Amaral"
+                   FontSize="Title"
+                   FontAttributes="Bold"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" />
 
-            <Label Text="R. Humaitá, 1090 - Centro, Jaú - SP, 17201-320" FontSize="Title" FontAttributes="Bold"
-                   VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="R. Humaitá, 1090 - Centro - CEP: 17201-320 - Jaú/SP"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" />
 
-            <Label Text="Telefone:(14) 3622-3566" Margin="10"/>
-            <Button Clicked="Button_Clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="(14) 3622-3566 / 3624-8585"
+                    Margin="10"
+                    Clicked="Button_Clicked" Style="{ StaticResource botaoVermelho }" />
 
-            <Label Text="E-mail:" Margin="10" VerticalOptions="CenterAndExpand"
-                 HorizontalOptions="CenterAndExpand"/>
+                <Label Text=""
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" />
+
+                <Label Text="E-mail:e070dir@cps.sp.gov.br"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
 
 
 

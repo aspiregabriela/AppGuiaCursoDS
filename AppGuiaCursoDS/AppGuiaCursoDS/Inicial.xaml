@@ -15,17 +15,17 @@
             <StackLayout>
             <Label Text="Olá! Tudo bem? Este é o App para que vai guiá-lo pelo Curso Técnico em Desenvolvimento de Sistemas"
                    FontSize="Medium"
-                   Style="{ StaticResource textoCentralizado}"/>
+                   />
 
             <Label Text="O curso tem tres anos de duração. Esse App foi criado para explicar o conteúdo que é passado durante o curso"
                    FontSize="Medium"
-                   Style="{ StaticResource textoCentralizado}"/>
+                   />
 
             <Label Text="Em breve este App estará disponível na Play Store lpar download"
                    TextColor="#AB0209"
-                   Style="{ StaticResource textoCentralizado}"/>
+                   />
 
-                <Image Source="logoDS.jpg"/>
+                <Image Source="etecsemfundo.png"/>
 
 
             </StackLayout>
