@@ -11,14 +11,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="etec.png" />
     <None Remove="etecsemfundo.png" />
+    <None Remove="imagens\etec.png" />
     <None Remove="logoEtecJau.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="etec.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    <EmbeddedResource Include="imagens\etec.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
 

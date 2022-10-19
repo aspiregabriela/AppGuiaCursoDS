@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 
 using AppGuiaCursoDS.Views;
+using System.Net.NetworkInformation;
+
 namespace AppGuiaCursoDS
 {
     public partial class MainPage : MasterDetailPage
@@ -17,6 +19,7 @@ namespace AppGuiaCursoDS
 
 
             Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Inicial)));
+            etec.Source = ImageSource.FromResource("AppGuiaCursoDS.imagens.etec.png");
         }
 
         private async void Open_Inicial(object sender, EventArgs e)
