@@ -19,6 +19,7 @@ namespace AppGuiaCursoDS.Views
         public ComponentePrimeiro()
         {
             InitializeComponent();
+            
 
         }
 

@@ -81,7 +81,7 @@ namespace AppGuiaCursoDS
         {
             try
             {
-                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ComponentePrimeiro)));
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Vestibulinho)));
                 IsPresented = false;
             }
             catch (Exception ex)
@@ -95,7 +95,7 @@ namespace AppGuiaCursoDS
         {
             try
             {
-                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ComponentePrimeiro)));
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Contato)));
                 IsPresented = false;
             }
             catch (Exception ex)
