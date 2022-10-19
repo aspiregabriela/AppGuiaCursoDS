@@ -54,7 +54,7 @@ namespace AppGuiaCursoDS
         {
             try
             {
-                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ComponentePrimeiro)));
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ComponentesSegundo)));
                 IsPresented = false;
             }
             catch (Exception ex)
@@ -68,7 +68,7 @@ namespace AppGuiaCursoDS
         {
             try
             {
-                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ComponentePrimeiro)));
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ComponentesTerceiro)));
                 IsPresented = false;
             }
             catch (Exception ex)
