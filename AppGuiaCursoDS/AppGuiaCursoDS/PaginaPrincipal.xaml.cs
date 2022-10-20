@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppGuiaCursoDS.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,29 +18,80 @@ namespace AppGuiaCursoDS
             InitializeComponent();
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private async void Button_Clicked(object sender, EventArgs e)
         {
+
+            try
+            {
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Inicial)));
+                IsPresented = false;
+
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops!", ex.Message, "OK");
+            }
+
 
         }
 
-        private void Button_Clicked_1(object sender, EventArgs e)
+        private async void Button_Clicked_1(object sender, EventArgs e)
         {
+            try
+            {
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ComponentePrimeiro)));
+                IsPresented = false;
+
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops!", ex.Message, "OK");
+            }
 
         }
 
-        private void Button_Clicked_2(object sender, EventArgs e)
+        private async void Button_Clicked_2(object sender, EventArgs e)
         {
+            try
+            {
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ComponentesSegundo)));
+                IsPresented = false;
 
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops!", ex.Message, "OK");
+            }
         }
 
-        private void Button_Clicked_3(object sender, EventArgs e)
+        private async void Button_Clicked_3(object sender, EventArgs e)
         {
+            try
+            {
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ComponentesTerceiro)));
+                IsPresented = false;
 
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops!", ex.Message, "OK");
+            }
         }
 
-        private void Button_Clicked_4(object sender, EventArgs e)
+        private async void Button_Clicked_4(object sender, EventArgs e)
         {
+            try
+            {
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Contato)));
+                IsPresented = false;
 
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops!", ex.Message, "OK");
+            }
         }
+
+    }
     }
 }
