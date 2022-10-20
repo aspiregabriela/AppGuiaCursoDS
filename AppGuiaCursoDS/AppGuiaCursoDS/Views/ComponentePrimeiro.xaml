@@ -18,7 +18,8 @@
             
             <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
 
-                <Image x:Name="etec" Aspect="AspectFit" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+           
+
 
                 <Button Text="Linguagem, Trabalho e Tecnologia" Clicked="btn1_Clicked" Style="{StaticResource botaopreto}"/>
                 <Button Text="Programação e algoritimos" Clicked="btn2_Clicked" Style="{StaticResource botaopreto}"/>

@@ -22,7 +22,7 @@
                    />
 
             <Label Text="Em breve este App estará disponível na Play Store lpar download"
-                   TextColor="#AB0209"
+                   TextColor="Black"
                    />
 
                 <Image Source="etecsemfundo.png"/>

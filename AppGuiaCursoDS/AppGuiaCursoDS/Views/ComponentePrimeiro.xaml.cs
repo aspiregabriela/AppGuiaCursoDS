@@ -19,8 +19,8 @@ namespace AppGuiaCursoDS.Views
         public ComponentePrimeiro()
         {
             InitializeComponent();
-            
 
+           
         }
 
         private async void btn1_Clicked(object sender, EventArgs e)

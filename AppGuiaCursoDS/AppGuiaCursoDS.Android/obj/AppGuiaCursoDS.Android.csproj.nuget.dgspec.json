@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\AppGuiaCursoDS.Android.csproj": {}
+    "C:\\Users\\Usuario\\Source\\Repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\AppGuiaCursoDS.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\AppGuiaCursoDS.Android.csproj": {
+    "C:\\Users\\Usuario\\Source\\Repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\AppGuiaCursoDS.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\AppGuiaCursoDS.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\AppGuiaCursoDS.Android.csproj",
         "projectName": "AppGuiaCursoDS.Android",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\AppGuiaCursoDS.Android.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\AppGuiaCursoDS.Android.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid12.0": {
             "projectReferences": {
-              "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj"
+              "C:\\Users\\Usuario\\Source\\Repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj": {
+    "C:\\Users\\Usuario\\Source\\Repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj",
         "projectName": "AppGuiaCursoDS",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

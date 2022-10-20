@@ -30,10 +30,12 @@
                 <Setter Property="BackgroundColor" Value="#AB0209"/>
                 <Setter Property="TextColor" Value="#FFF" />
                 <Setter Property="CornerRadius" Value="5"/>
-                
             </Style>
-            
-        
+
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="#000"/>
+                <Setter Property="BarTextColor" Value="#FFF"/>
+            </Style>
 
             <Style x:Key="botaopreto" TargetType="Button">
                 <Setter Property="BackgroundColor" Value="Black"/>
@@ -41,14 +43,7 @@
                 <Setter Property="CornerRadius" Value="5"/>
             </Style>
 
-            <Style TargetType="NavigationPage">
-                <Setter Property="BarBackgroundColor" Value="White"/>
-                <Setter Property="BarTextColor" Value="Red"/>
 
-
-            </Style>
-            
-            
 
         </ResourceDictionary>
 

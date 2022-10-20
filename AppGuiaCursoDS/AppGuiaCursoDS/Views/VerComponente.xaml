@@ -9,28 +9,30 @@
                        HorizontalTextAlignment="Start"
                        FontAttributes="Bold"
                        Margin="0, 0, 0, 30"
-                       TextColor="#AB0209"
+                       TextColor="Black"
                        FontSize="Title" />
 
 
             <Label Text="Atribuições e Responsabilidades "
                        HorizontalTextAlignment="Start"
-                       TextColor="WHITE"
-                       BackgroundColor="Black"
-                       FontSize="Large" />
+                       TextColor="Black"
+                       BackgroundColor="LightGray"
+                       FontSize="Large"
+                       FontAttributes="Bold"/>
 
             <Label Text="{Binding AtribuicoesResponsabilidades}"
                        Margin="0, 0, 0, 30"
                        FontSize="Medium"
-                       HorizontalTextAlignment="Center" />
+                       HorizontalTextAlignment="Start" />
 
 
 
             <Label Text="Valores e Atitudes"
                        HorizontalTextAlignment="Start"
-                       BackgroundColor="#3E474C"
-                       TextColor="#F3F2F0"
-                       FontSize="Large" />
+                       BackgroundColor="LightGray"
+                       TextColor="Black"
+                       FontSize="Large"
+                       FontAttributes="Bold"/>
 
             <Label Text="{Binding ValoresAtitudes}"
                        FontSize="Medium"
