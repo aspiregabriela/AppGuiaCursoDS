@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\AppGuiaCursoDS.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\AppGuiaCursoDS.Android.csproj",
       "projectName": "AppGuiaCursoDS.Android",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\AppGuiaCursoDS.Android.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\AppGuiaCursoDS.Android.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3439,8 +3439,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\Users\\Usuario\\Desktop\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj"
+            "C:\\Users\\Usuario\\Source\\Repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\aspiregabriela\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS\\AppGuiaCursoDS.csproj"
             }
           }
         }

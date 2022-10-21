@@ -16,11 +16,11 @@ namespace AppGuiaCursoDS
         public PaginaPrincipal()
         {
             InitializeComponent();
+            Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Inicial)));
         }
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
-
             try
             {
                 Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Inicial)));
@@ -31,8 +31,6 @@ namespace AppGuiaCursoDS
             {
                 await DisplayAlert("Ops!", ex.Message, "OK");
             }
-
-
         }
 
         private async void Button_Clicked_1(object sender, EventArgs e)
@@ -60,7 +58,7 @@ namespace AppGuiaCursoDS
             }
             catch (Exception ex)
             {
-                await DisplayAlert("Ops!", ex.Message, "OK");
+                await DisplayAlert("Ops!", $"{ex.Message}\n{ex.StackTrace}", "OK");
             }
         }
 
@@ -74,7 +72,7 @@ namespace AppGuiaCursoDS
             }
             catch (Exception ex)
             {
-                await DisplayAlert("Ops!", ex.Message, "OK");
+                await DisplayAlert("Ops!", ex.StackTrace, "OK");
             }
         }
 
@@ -82,7 +80,7 @@ namespace AppGuiaCursoDS
         {
             try
             {
-                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Contato)));
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Vestibulinho)));
                 IsPresented = false;
 
             }
