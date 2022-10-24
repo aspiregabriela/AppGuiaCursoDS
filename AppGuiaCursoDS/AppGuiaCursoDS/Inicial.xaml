@@ -13,22 +13,31 @@
         <ScrollView>
 
             <StackLayout>
-            <Label Text="Olá! Tudo bem? Este é o App para que vai guiá-lo pelo Curso Técnico em Desenvolvimento de Sistemas"
-                   FontSize="Medium"
-                   />
 
-            <Label Text="O curso tem tres anos de duração. Esse App foi criado para explicar o conteúdo que é passado durante o curso"
-                   FontSize="Medium"
-                   />
+                <Label Text="Olá! Este aplicativo servirá como um guia do curso Técnico em Desenvolvimento de Sistemas"
+                       FontSize="Medium" HorizontalTextAlignment="Center"
+                      />
 
-            <Label Text="Em breve este App estará disponível na Play Store lpar download"
-                   TextColor="Black"
-                   />
+                <Label Text="O curso tem três anos de duração. O app te explicará cada um desses anos"
+                       FontSize="Medium" HorizontalTextAlignment="Center"
+                        />
 
-                <Image Source="etecsemfundo.png"/>
+                <Label Text="Em breve você poderá acessá-lo pela PlayStore"
+                       TextColor="#AB0209" FontSize="Small" HorizontalTextAlignment="Center"
+                        />
+
+                <Frame Scale="1" CornerRadius="10">
+                    <Image x:Name="Foto" />
+                </Frame>
+
+               
+
+
 
 
             </StackLayout>
+
         </ScrollView>
+
     </ContentPage.Content>
 </ContentPage>

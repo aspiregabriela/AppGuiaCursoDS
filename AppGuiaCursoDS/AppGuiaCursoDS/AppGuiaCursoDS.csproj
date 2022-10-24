@@ -12,19 +12,24 @@
 
   <ItemGroup>
     <None Remove="etecsemfundo.png" />
+    <None Remove="imagens\ds.jpg" />
     <None Remove="imagens\etec.png" />
     <None Remove="logoEtecJau.png" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="imagens\etec.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="imagens\ds.jpg" />
   </ItemGroup>
 
   <ItemGroup>

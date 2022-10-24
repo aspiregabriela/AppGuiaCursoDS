@@ -16,7 +16,14 @@ namespace AppGuiaCursoDS
         public PaginaPrincipal()
         {
             InitializeComponent();
-            Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Inicial)));
+
+
+            
+            etec.Source = ImageSource.FromResource("AppGuiaCursoDS.imagens.etec.png");
+            
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Inicial)));
+            
+
         }
 
         private async void Button_Clicked(object sender, EventArgs e)
